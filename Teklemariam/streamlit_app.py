@@ -62,7 +62,7 @@ h2, h3, h4, h5, h6 {
 
 @st.cache_data
 def load_model():
-    with open(r"C:\Users\lenevo\Desktop\Teklemariam\disease_model.pkl", "rb") as f:
+    with open("disease_model.pkl", "rb") as f:
         return pickle.load(f)
 
 @st.cache_data
